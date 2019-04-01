@@ -1,0 +1,43 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "author": "bermann",
+  "dependencies": {
+    "@orion-js/graphql-client": "^0.10.0",
+    "@orion-js/schema": "^0.10.0",
+    "apollo-hooks": "^2.2.1",
+    "babel-polyfill": "^6.26.0",
+    "bermann-react-scripts": "2.1.8",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6",
+    "orionjs-react-autoform": "^1.2.1",
+    "react": "^16.8.6",
+    "react-alert": "^5.4.0",
+    "react-apollo": "^2.5.3",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^2.7.1",
+    "simple-react-form": "^2.2.1"
+  },
+  "scripts": {
+    "reinstall": "rm -rf node_modules/ && yarn",
+    "start": "PORT=3010 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0"
+  }
+}
